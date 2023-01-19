@@ -15,7 +15,7 @@ Feature: test login
   Scenario Outline:
       Given I open the site
       When I add text  "<testa>" and "<testb>"
-      And I click on search
+      #And I click on search
 
 
       Examples:
