@@ -20,7 +20,7 @@ import java.util.List;
 @CucumberOptions(
         features = "src/test/java/features",
         glue = "stepDefinition",
-//        tags = "@Google",
+        tags = "@Google",
         plugin = {"pretty", "html:target/reports/report.html",
                 "json:target/reports/report.json"},
         dryRun = false,
