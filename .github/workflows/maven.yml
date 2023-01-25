@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn test
+      run: mvn clean install
       
     - name: Deploy
       uses: actions/checkout@v2.3.4
